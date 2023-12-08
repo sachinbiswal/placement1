@@ -22,7 +22,7 @@ function PriceList() {
 
             <div className='inputdiv'>
             <label htmlFor="">Product Name * <br /> 
-                <input type='text' value={name} onChange={(e)=>setName(e.target.value)}/></label>
+                <input type='text' value={name} onChange={(e)=>setName(e.target.value)}/></label><br/><br/>
             <label htmlFor="">Product Price * <br />  
                 <input type='number' value={price} onChange={(e)=>setPrice(e.target.value)}/>
             </label>           
